@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Bootstrap Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <section class="col-xs-12">
+          <div id="heading">
+            <h1 class="text-center">Bootstrap Contact Form</h1>
+          </div>
+          
+          <form>
+            <fieldset><legend> Personal info</legend>
+             
+            <div class="form-group has-success has-feedback">
+              <label for="inputName">Name</label>
+              <input class="form-control" id="inputName" placeholder="Mirnes Glamočić" />
+              <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+              <span id="nameStatus" class="sr-only">(success)</span>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail">Email</label>
+              <input class="form-control" type="email" id="inputEmail" placeholder="contact@mirnes-glamocic.com"/>
+            </div>
+          </fieldset>
+          <fieldset><legend>Other info</legend>
+            <label for="selectSite">Site</label>
+            <select class="form-control" id="selectSite">
+              <option>Choose...</option>
+              <option>linkedin.com</option>
+              <option>pluralsight.com</option>
+              <option>w3schools.com</option>
+              <option>sololearn.com</option>
+            </select>
+            <div class="checkbox form-group">
+              <label class="checkbox-inline">
+                <input id="inputAddList" type="checkbox" />
+                Notification</label
+              >
+              <label class="checkbox-inline">
+                <input id="inputAddList" type="checkbox" />
+                Quiz</label
+              >
+              <label class="checkbox-inline">
+                <input id="inputAddList" type="checkbox" />
+                Subscription</label
+              >
+            </div>
+            <div class="radio">
+              <label>
+                <input id="inputAddList" type="radio" />
+                Add me to e-mail blast</label
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="inputComments">Comments</label>
+              <textarea class="form-control" id="inputComments"></textarea>
+            </div>
+          </fieldset>
+            <input
+              class="btn btn-default pull-right"
+              type="submit"
+              value="submit"
+            />
+        </section>
+      </div>
+      <!-- .row -->
+      <div id="footer">
+        <p class="text-center">Developed by <a href="https://www.mirnes-glamocic.com" target="_blank">Mirnes Glamočić</a></p>
+      </div><!-- #footer -->
+    </div>
+    <!-- .container -->
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
