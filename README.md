@@ -13,4 +13,4 @@ Heading and footer use class _text-center_ for text-align to the center and also
 
 Also, for input name we add [glyphicons](https://www.glyphicons.com/) icon for success.
 
-[PREVIEW](https://full-stack-web-developer-and-designer.github.io/BootstrapForm.html/)
+[PREVIEW](https://full-stack-web-developer-and-designer.github.io/BootstrapForm/)
